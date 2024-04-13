@@ -70,16 +70,16 @@ function total(){
         total_val += val
     }
 
-    if(total_val <=4){
+    if(total_val <=3){
         //devil
         test("images/bibi.gif","YOU'RE EVIL")
 
     }
-    else if(total_val <=8){
+    else if(total_val <=6){
         //terrible person
         test("images/dest.gif","YOU'RE AWFUL")
     }
-    else if(total_val <=12){
+    else if(total_val <=9){
         //you're getting there
         test("images/biden.gif","YOU SUCK")
     }
